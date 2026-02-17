@@ -1,6 +1,6 @@
-const {test, expect} = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
-test('Проверка заголовка Playwright', async ({page}) => {
+test('Проверка заголовка Playwright', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
 
